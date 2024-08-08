@@ -3569,12 +3569,15 @@ fieldset:disabled .btn {
   color: #fff;
   background-color: #66BB6A;
   border-color: #66BB6A;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .btn-success:hover {
   color: #fff;
   background-color: #579f5a;
   border-color: #529655;
+  transform: translateY(5px);
 }
 
 .btn-check:focus + .btn-success, .btn-success:focus {
